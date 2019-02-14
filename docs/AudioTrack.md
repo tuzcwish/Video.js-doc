@@ -4,22 +4,22 @@
 
 
 
-##注意事项
+## 注意事项
 
 * 音轨无法像文字轨道那样通过 HTML 添加，必须以编程的方式添加它们；
 * Video.js 仅保存音轨的表现，切换用于播放的音轨不由 Video.js 处理，必须在其他的地方处理。比如：[videojs-contrib-hls](https://github.com/videojs/videojs-contrib-hls) 处理音轨的切换来支持通过 UI 选择轨道。
 
 
 
-##使用 Audio Tracks
+## 使用 Audio Tracks
 
 ### 向播放器添加 Audio Track
 
 ```javascript
-// Create a player.
+// 新建一个播放器
 var player = videojs('my-player');
 
-// Create a track object.
+// 新建一个 track 对象
 var track = new videojs.AudioTrack({
   id: 'my-spanish-audio-track',
   kind: 'translation',
@@ -27,7 +27,7 @@ var track = new videojs.AudioTrack({
   language: 'es'
 });
 
-// Add the track to the player's audio track list.
+// 向播放器的 Audio track list 中添加 track
 player.audioTracks().addTrack(track);
 ```
 
@@ -38,13 +38,13 @@ player.audioTracks().addTrack(track);
 > NOTE: 初始的轨道选择（通常是选定的主轨道）不应触发 `change` 事件。
 
 ```javascript
-// Get the current player's AudioTrackList object.
+// 获取当前播放器的 AudioTrackList 对象
 var audioTrackList = player.audioTracks();
 
-// Listen to the "change" event.
+// 监听 change 事件
 audioTrackList.addEventListener('change', function() {
 
-  // Log the currently enabled AudioTrack label.
+  // 打印当前启用的 AudioTrack label
   for (var i = 0; i < audioTrackList.length; i++) {
     var track = audioTrackList[i];
 
@@ -61,10 +61,10 @@ audioTrackList.addEventListener('change', function() {
 如果你想从播放器删除一个 Audio track，只需要像下面这样：
 
 ```javascript
-// Get the track we created in an earlier example.
+// 获取上个例子中创建的 track
 var track = player.audioTracks().getTrackById('my-spanish-audio-track');
 
-// Remove it from the audio track list.
+// 从 track list 中移除
 player.audioTracks().removeTrack(track);
 ```
 
@@ -123,4 +123,3 @@ Video.js 支持 `AudioTracks` 的标准 `kind` 值：
 是否应该播放该音轨。
 
 在 Video.js 中，我们一次只允许启用一个音轨。因此，如果你启用多个音轨，最后启用的音轨将会成为唯一被启用的音轨。虽然规范允许启用多个轨道，但 Safari 和大多数实现仅允许一次启用一个音轨。
-
