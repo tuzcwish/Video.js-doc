@@ -10,7 +10,7 @@ Video.js 文档分为两类：[指南](https://github.com/tuzcwish/Video.js-doc/
 
 Video.js 的常见问题。
 
-### 排除故障
+### [排除故障](https://github.com/tuzcwish/Video.js-doc/blob/master/docs/Troubleshooting.md)
 
 Video.js 的疑难问题帮助。
 

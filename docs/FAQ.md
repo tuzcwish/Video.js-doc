@@ -31,21 +31,21 @@ Video.js 遵循 [semver](https://semver.org/lang/zh-CN) 规范，意味着除非
 
 ## 如何解决播放问题
 
-查看[排除故障指南](https://docs.videojs.com/tutorial-troubleshooting.html)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
+查看[排除故障指南](./Troubleshooting.md)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
 
 当你在寻求播放问题的帮助时，由于问题常常是特定的视频文件、托管视频的方式或者浏览器，因此请确保能提供关于这些的所有信息以及简化的测试用例。
 
 ## 一个视频在特定的浏览器无法播放，这是为什么？
 
-查看[排除故障指南](https://docs.videojs.com/tutorial-troubleshooting.html)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
+查看[排除故障指南](./Troubleshooting.md)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
 
 ## 为什么要在播放器下载整个视频？为什么视频加载时间很长？
 
-查看[排除故障指南](https://docs.videojs.com/tutorial-troubleshooting.html)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
+查看[排除故障指南](./Troubleshooting.md)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
 
 ## 抛出的异常提到了 `vdata12345` ，这是什么意思？
 
-查看[排除故障指南](https://docs.videojs.com/tutorial-troubleshooting.html)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
+查看[排除故障指南](./Troubleshooting.md)，如果没有解决你的问题，请在 [Slack](https://videojs.slack.com/) 上提问或者提交 [issue](https://docs.videojs.com/tutorial-faq.html#q-i-think-i-found-a-bug-with-videojs-or-i-want-to-add-a-feature-what-should-i-do) 。
 
 ## 我觉得我发现了 Video.js 的一个 bug ，或者我想增加一个功能，我应该怎么做？
 
@@ -65,7 +65,7 @@ Video.js 遵循 [semver](https://semver.org/lang/zh-CN) 规范，意味着除非
 
 ## Video.js 支持哪些媒体格式？
 
-这取决于浏览器的HTML5 video 元素支持哪些格式以及 Video.js 使用的播放技术/插件，关于媒体格式的更多信息请查看[排除故障指南](https://docs.videojs.com/tutorial-troubleshooting.html)。
+这取决于浏览器的HTML5 video 元素支持哪些格式以及 Video.js 使用的播放技术/插件，关于媒体格式的更多信息请查看[排除故障指南](./Troubleshooting.md)。
 
 ## Video.js 如何决定使用哪个源？
 
